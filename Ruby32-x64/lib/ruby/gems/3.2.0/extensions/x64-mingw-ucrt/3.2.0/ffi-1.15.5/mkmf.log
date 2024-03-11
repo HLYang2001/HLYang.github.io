@@ -1,0 +1,150 @@
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" x86_64-w64-mingw32-pkg-config --exists libffi
+package configuration for libffi is not found
+have_header: checking for ffi.h... -------------------- no
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -o conftest.exe -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Users/Larscin/Desktop/Website/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby320  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+--------------------
+
+find_header: checking for ffi.h in /usr/local/include,/usr/include/ffi,/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ffi,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ffi... -------------------- no
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 -I/usr/local/include -c conftest.c"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 -I/usr/include/ffi -c conftest.c"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ffi -c conftest.c"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ffi -c conftest.c"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+--------------------
+
+block in append_ldflags: checking for whether -Wl,--exclude-libs,ALL is accepted as LDFLAGS... -------------------- yes
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -o conftest.exe -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Users/Larscin/Desktop/Website/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby320 -Wl,--exclude-libs,ALL -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+--------------------
+
+block in append_ldflags: checking for whether -pthread is accepted as LDFLAGS... -------------------- yes
+
+PATH=".;C:/Users/Larscin/Desktop/Website/Ruby32-x64/lib;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\ucrt64\bin;C:\Users\Larscin\Desktop\Website\Ruby32-x64\msys64\usr\bin;C:\Users\Larscin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Larscin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\CTEX\UserData\miktex\bin;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;C:\Users\Larscin\Desktop\Rproj\ffmpeg-2022-08-10-git-8fc7f0fdec-essentials_build\bin;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Larscin\Desktop\Website\Ruby32-x64\bin;C:\Program Files\Ruby32-x64\bin;C:\Users\Larscin\AppData\Local\Microsoft\WindowsApps;C:\Users\Larscin\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Larscin\Anaconda3;C:\Users\Larscin\Anaconda3\Library\bin;C:\Users\Larscin\Anaconda3\Scripts;C:\Users\Larscin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -o conftest.exe -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/Larscin/Desktop/Website/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Users/Larscin/Desktop/Website/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed -Wl,--exclude-libs,ALL  -m64   -lx64-ucrt-ruby320 -pthread -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+1: #ifndef EXTCONF_H
+2: #define EXTCONF_H
+3: #define HAVE_FFI_PREP_CIF_VAR 1
+4: #define USE_INTERNAL_LIBFFI 1
+5: #endif
+/* end */
+
