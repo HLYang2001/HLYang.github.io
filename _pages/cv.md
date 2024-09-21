@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-__You can find my CV__ [here](https://hlyang2001.github.io//HLyang.github.io/files/paper1.pdf)
+__You can find my CV__ [here](https://drive.google.com/file/d/1yL8yMwg0u38OYZ0NK2yR1rvXbnrdI-pG/view)
 
 Education
 ======
