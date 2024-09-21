@@ -83,8 +83,8 @@ analytics:
 author:
   name             : "Haolin Yang"
   avatar           : "profile.png"
-  bio              : "Undergraduate Student, Tsinghua University"
-  location         : "Beijing, China"
+  bio              : "Master Student, University of Chicago"
+  location         : "Chicago, IL"
   employer         :
   pubmed           : 
   googlescholar    :
@@ -181,6 +181,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -216,6 +219,15 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: research
     values:
       layout: single
       author_profile: true

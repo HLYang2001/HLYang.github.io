@@ -1,9 +1,9 @@
 ---
 title: "How did COVID-19 and the COVID-related policies influence the international energy trade network: Based on complex network theory and regression"
-collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+collection: research
+permalink: /research/research-title-number-1
 excerpt: 'Abstract: This article investigates how the global energy trade network has changed with respect to the outbreak of COVID-19 and the policies taken by the countries in the network concerning the pandemic. This paper applies the technique of social network analysis to study the overall structure and features of the global energy trade network between 2019 and 2022. Then, this paper discusses the changes in the relative importance of different countries in the network and examines quantitatively to what extent could those changes be accredited to different COVID-related factors and policies specific to these countries. The findings are: (1)The interconnectedness and the density of connections in the trade network drastically declined in 2020, but then rebounded in 2021 and 2022. (2) The United States, China, India, and Netherlands were consistently the four most important countries in the global energy trade network from 2019 to 2022, whilst the relative importance of the remaining countries changed rapidly. (3)The number of COVID-19 deaths only has a minor influence on a country’s relative importance in the energy trade network. (4)The stringency of the containment and closure policies a country implements as well as the economic support policies it enacts could significantly affect its relative importance in the network. (5)Developed and developing countries, as well as energy-importing and exporting countries, are affected by the pandemic in largely the same ways.'
-date: 2010-10-01
+date: 2023-8-31
 venue: 'Journal 1'
 citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---

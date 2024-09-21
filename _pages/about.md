@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a senior student at [Tsinghua University](https://www.tsinghua.edu.cn/en/), majoring in English at the Department of Foreign Languages and Literatures. I am also taking courses to obtain minor degrees in __statistics__ as well as __economics__.
+I am currently a master student in statistics at [the University of Chicago](https://www.uchicago.edu/en).  Previously I graduated from [Tsinghua University](https://www.tsinghua.edu.cn/en/) where I majored in English and minored in Economics & Finance and Statistics.
 
-I have been admitted to the the University of Chicago's [Master's program in Statistics](https://stat.uchicago.edu/admissions/about-ms/), and I am actively looking for research opportunities.
+I have broad interests in research within the purview of machine learning, particularly __natural language processing__. In my undergraduate thesis I investigated the differences between the strategies applied by pretrained language models and those suggested by traditional translation studies in terms of improving raw machine translations of English academic texts into Chinese. Currently I am working under the supervision of Prof. [Yiqiao Zhong](https://pages.stat.wisc.edu/~zhong35/) to explore the mechanistic interpretability of various emergent capabilities of large language models, for instance the ability of in-context learning, or, more generally, OOD generalization on-the-fly without (explicit) parameter updates. In my undergraduate days I also had extensive experience in tackling problems emerging in fields such as education science, environmental science, and economics using a wide range of statistical and machine learning techniques, including __network analysis__ and __graph neural networks__.
 
-I have broad interests in tackling problems emerging in fields such as education science, environmental science, and economics using a wide range of statistical and machine learning techniques, particrlarly __network analysis__ and __graph neural networks__. I also have experience in __natural language processing__ as I am working on my undergraduate thesis where I examine the performance of automatic post-editing techniques in the machine translation of English academic texts into Chinese. Moreover, I am working under the supervision of Prof. [Chenyuan Liu](https://www.sem.tsinghua.edu.cn/en/info/1233/6979.htm) at the [School of Economics and Management](https://www.sem.tsinghua.edu.cn/en/) of Tsinghua University on topics about insurance plan design and the Chinese medical market.
-
-You can contact me at: hl-yang20@mails.tsinghua.edu.cn.
+You can contact me at: haolinyang2001@uchicago.edu.
 

@@ -13,9 +13,9 @@ __You can find my CV__ [here](https://hlyang2001.github.io/hlyang.github.io/file
 
 Education
 ======
-* B.A. in English, Tsinghua University, 2024 (Expected)
-  * Minor in Economics and Finance, Tsinghua University, 2024 (Expected)
-  * Minor in Statistics, Tsinghua University, 2024 (Expected)
+* B.A. in English, __Outstanding Graduate__, Tsinghua University, 2024 
+  * Minor in Economics and Finance, Tsinghua University, 2024
+  * Minor in Statistics, Tsinghua University, 2024
 
   
 Skills
