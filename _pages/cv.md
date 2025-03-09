@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-__You can find my CV__ [here](https://drive.google.com/file/d/1yL8yMwg0u38OYZ0NK2yR1rvXbnrdI-pG/view)
+__You can find my CV__ [here](https://drive.google.com/file/d/1yL8yMwg0u38OYZ0NK2yR1rvXbnrdI-pG/view?usp=drive_link)
 
 Education
 ======
